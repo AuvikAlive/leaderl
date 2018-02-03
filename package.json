@@ -1,0 +1,48 @@
+{
+  "name": "leaderal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "amazon-cognito-identity-js": "^1.28.0",
+    "aws-sdk": "^2.171.0",
+    "body-parser": "^1.18.2",
+    "carbon-components": "^8.1.14",
+    "carbon-components-react": "^5.1.1",
+    "carbon-icons": "^6.2.0",
+    "compression": "^1.7.1",
+    "cors": "^2.8.4",
+    "generate-password": "^1.3.0",
+    "ip": "^1.1.5",
+    "lodash": "^4.17.4",
+    "react": "^16.0.0",
+    "react-burger-menu": "^2.1.11",
+    "react-dom": "^16.0.0",
+    "react-google-maps": "^9.4.3",
+    "react-lazyload": "^2.3.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "1.0.14",
+    "react-scroll-parallax": "^1.1.1",
+    "react-stickynode": "^1.4.0",
+    "redux": "^3.7.2",
+    "redux-persist": "^5.4.0",
+    "redux-thunk": "^2.2.0",
+    "request": "^2.83.0",
+    "secure-pin": "^1.0.14",
+    "styled-components": "^2.3.2",
+    "uuid": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:server": "node server",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "test:server": "jest --watch server/*",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:9000",
+  "devDependencies": {
+    "redux-mock-store": "^1.4.0"
+  }
+}

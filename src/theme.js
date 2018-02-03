@@ -1,0 +1,25 @@
+const theme = {
+  skeleton: '#f0f3f6',
+  brand01: '#3d70b2',
+  brand02: '#5596e6',
+  brand03: '#41d6c3',
+  ui01: '#ffffff',
+  ui02: '#f5f7fa',
+  ui03: '#f0f3f6',
+  ui04: '#dfe3e6',
+  ui05: '#8c9ba5',
+  text01: '#152934',
+  text02: '#5a6872',
+  text03: '#5a6872',
+  inverse01: '#ffffff',
+  field01: 'rgba(60, 112, 178, .1)',
+  support01: '#e71d32',
+  support02: '#5aa700',
+  support03: '#efc100',
+  support04: '#5aaafa',
+  darkBackground: '#21343e',
+  inputBackground: '#384952',
+  darkPrimaryBtnText: '#152935',
+};
+
+export default theme;
